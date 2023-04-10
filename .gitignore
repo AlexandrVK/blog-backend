@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc 
+*.pyd 
+*.pyo
 
 # C extensions
 *.so
@@ -136,5 +139,12 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+
+# Users
+.vscode
+.idea
+Thumbs.db
+.DS_Store
 
 start.cmd
