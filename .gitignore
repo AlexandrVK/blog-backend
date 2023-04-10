@@ -142,6 +142,7 @@ cython_debug/
 
 
 # Users
+media/
 .vscode
 .idea
 Thumbs.db
