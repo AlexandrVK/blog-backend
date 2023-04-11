@@ -52,14 +52,12 @@
               <div class="single-recent-blog-post">
                 <div class="thumb">
                   <img class="img-fluid" src="
-                      
-                      {% if post.image_url %}
+                    {% if post.image_url %}
                       {{post.image_url}}
-                      {% else %}
+                    {% else %}
                       {% static 'img/banner/blog.png' %}
-                      {% endif %} 
-
-                      " alt="post image">
+                    {% endif %} 
+                  " alt="post image">
                   <ul class="thumb-info" style="max-width: 550px;">
                     <li><a href="#"><i class="ti-user"></i>{{post.author}}</a></li>
                     <li><a href="#"><i class="ti-notepad"></i>{{post.published_at}}</a></li>
